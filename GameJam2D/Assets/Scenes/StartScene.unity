@@ -322,8 +322,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053944307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.258, y: -0.167, z: 10}
+  m_LocalScale: {x: 0.972504, y: 0.96817046, z: 0.936}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
@@ -651,11 +651,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
+    m_FontSize: 54
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 74
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -795,8 +795,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40, y: -117}
-  m_SizeDelta: {x: 167.82, y: 40.22}
+  m_AnchoredPosition: {x: -42, y: -173}
+  m_SizeDelta: {x: 333.8, y: 79.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8787871792307275494
 CanvasRenderer:
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 8787871792307275495}
   - component: {fileID: 8787871792307275492}
   m_Layer: 5
-  m_Name: Restart
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -979,8 +979,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40, y: -175.29999}
-  m_SizeDelta: {x: 167.82, y: 40.22}
+  m_AnchoredPosition: {x: -40.38, y: -286}
+  m_SizeDelta: {x: 334.98, y: 81.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8787871793196625236
 CanvasRenderer:
@@ -1010,11 +1010,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
+    m_FontSize: 54
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 72
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1

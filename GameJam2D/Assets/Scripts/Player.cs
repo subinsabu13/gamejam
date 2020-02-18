@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     
     public static bool playerHit = false;
 
-    public GameObject BulletPrefeb;
+    public GameObject BulletPrefab;
     public float bullspeed;
     public Transform gunPos;
     void Start()
@@ -32,7 +32,8 @@ public class Player : MonoBehaviour
     }
     void Shoot()
     {
-        GameObject bull = Instantiate(BulletPrefeb, gunPos.position, Quaternion.identity);
+        GameObject bull = Instantiate(BulletPrefab, gunPos.position , Quaternion.identity);
         bull.GetComponent<Rigidbody2D>().velocity = transform.up * 100;
+        bull.transform.up = transform.up;
     }
 }

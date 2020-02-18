@@ -48,7 +48,7 @@ public class MeteorSpawner : MonoBehaviour
                 float x = Mathf.Cos((i / (float)points) * 2 * Mathf.PI);
                 float y = Mathf.Sin((i / (float)points) * 2 * Mathf.PI);
                 vertices3D[i] = new Vector3(x, y, -4.0f);
-                go = Instantiate(meteorPrefabs[Random.Range(0, 2)], vertices3D[i], Quaternion.identity);
+                go = Instantiate(meteorPrefabs[Random.Range(0, meteorPrefabs.Length)], vertices3D[i], Quaternion.identity);
                 go.transform.parent = meteorSet.transform;
                 if (i == vertices3D.Length - 1)
                 {

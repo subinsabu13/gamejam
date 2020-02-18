@@ -144,7 +144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155647516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.874, z: 0}
+  m_LocalPosition: {x: -0.0502, y: 0.859, z: 0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 327926823}
@@ -182,6 +182,8 @@ MonoBehaviour:
   meteorPrefabs:
   - {fileID: 8792905906866987198, guid: cc574b1ece5c1b745a5caf4fe048d99f, type: 3}
   - {fileID: 1429207788315584305, guid: ac3d1fc1801d94f4a95497eda82aa906, type: 3}
+  - {fileID: 5170972873411862963, guid: 99e69b7c57ee3b24e8445fcb162f0657, type: 3}
+  - {fileID: 5394194909016874066, guid: ac39f70771efaad4fb25a45c717928cc, type: 3}
   meteorSetGO: {fileID: 8013144047820465869, guid: c6729de505c4c924688fc97a283bc525,
     type: 3}
   wavesCountText: {fileID: 1033200879}
@@ -314,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327926819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 2.17, z: -0.53515625}
+  m_LocalPosition: {x: -0.02, y: 2.17, z: -1}
   m_LocalScale: {x: 0.3606188, y: 0.3606188, z: 0.3606188}
   m_Children:
   - {fileID: 155647517}
@@ -334,7 +336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 150
-  BulletPrefeb: {fileID: 5146211176024406583, guid: 1d71aac12a9bc624cab9561f31f30b80,
+  BulletPrefab: {fileID: 6870867020424036884, guid: b6e8fd7d63924e44cb89724136f13cdd,
     type: 3}
   bullspeed: 1
   gunPos: {fileID: 155647517}
@@ -605,7 +607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530230475}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.14, z: 0}
+  m_LocalPosition: {x: -0.01, y: 0.14, z: -1.54}
   m_LocalScale: {x: 0.825, y: 0.825, z: 0.825}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1959,7 +1961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.6509804}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8862745}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
